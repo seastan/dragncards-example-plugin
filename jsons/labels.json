@@ -93,8 +93,8 @@
         "layout1Player": {
             "English": "Layout1 Player"
         },
-        "player4Play1": {
-            "English": "Player4 Play1"
+        "player4PlayArea": {
+            "English": "P4 Play Area"
         },
         "player4Discard": {
             "English": "Player4 Discard"
@@ -106,7 +106,7 @@
             "English": "Player4 Hand"
         },
         "player3PlayArea": {
-            "English": "Player3 Play Area"
+            "English": "P3 Play Area"
         },
         "player3Discard": {
             "English": "Player3 Discard"
@@ -118,7 +118,7 @@
             "English": "Player3 Hand"
         },
         "player2PlayArea": {
-            "English": "Player2 Play Area"
+            "English": "P2 Play Area"
         },
         "player2Discard": {
             "English": "Player2 Discard"
@@ -133,7 +133,7 @@
             "English": "Play Area"
         },
         "player1PlayArea": {
-            "English": "Player1 Play Area"
+            "English": "P1 Play Area"
         },
         "player1Discard": {
             "English": "Player1 Discard"

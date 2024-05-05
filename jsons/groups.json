@@ -68,7 +68,7 @@
         "player1PlayArea": {
             "groupType": "inPlay",
             "label": "id:player1PlayArea", 
-            "tableLabel": "id:playArea",
+            "tableLabel": "id:player1PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player1"
@@ -107,7 +107,7 @@
         "player2PlayArea": {
             "groupType": "inPlay",
             "label": "id:player2PlayArea", 
-            "tableLabel": "id:playArea",
+            "tableLabel": "id:player2PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player2"
@@ -146,7 +146,7 @@
         "player3PlayArea": {
             "groupType": "inPlay",
             "label": "id:player3PlayArea", 
-            "tableLabel": "id:playArea",
+            "tableLabel": "id:player3PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player3"
@@ -184,8 +184,8 @@
         },
         "player4PlayArea": {
             "groupType": "inPlay",
-            "label": "id:player4Play1", 
-            "tableLabel": "id:playArea",
+            "label": "id:player4PlayArea", 
+            "tableLabel": "id:player4PlayArea",
             "canHaveAttachments": true,
             "onCardEnter": {
                 "controller": "player4"
