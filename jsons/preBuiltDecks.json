@@ -1,0 +1,536 @@
+{
+    "preBuiltDecks": {
+        "crazyEightsDeck": {
+            "label": "id:crazyEightsDeck",
+            "cards": [
+                {
+                    "databaseId": "ace_of_clubs", 
+                    "quantity": 1, 
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                }
+            ],
+            "postLoadActionList": "loadedCrazyEightsDeck"
+        },
+        "warDeck": {
+            "label": "id:warDeck",
+            "cards": [
+                {
+                    "databaseId": "ace_of_clubs", 
+                    "quantity": 1, 
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_clubs",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_diamonds",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_hearts",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "ace_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "2_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "3_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "4_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "5_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "6_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "7_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "8_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "9_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "10_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "jack_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "queen_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                },
+                {
+                    "databaseId": "king_of_spades",
+                    "quantity": 1,
+                    "loadGroupId": "sharedMainDeck"
+                }
+            ],
+            "postLoadActionList": "loadedWarDeck"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "cardBacks": {
+        "red_card_back": {"width": 0.72, "height": 1.0, "imageUrl": "https://dragncards-example-plugin.s3.amazonaws.com/red_card_back.png"}
+        
+    }
+}
+

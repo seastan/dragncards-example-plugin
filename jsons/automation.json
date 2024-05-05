@@ -1,0 +1,25 @@
+{
+    "automation": {
+        "gameRules": [
+            { 
+                "_comment": "Show option to change selected suit when an 8 is played",
+                "type": "trigger", 
+                "listenTo": ["/cardById/*/groupId"],
+                "condition": ["AND", 
+                    ["EQUAL", "$TARGET.groupId", "sharedMainDiscard"],
+                    ["NOT_EQUAL", ["PREV", "$TARGET.groupId", "sharedMainDiscard"]],
+                    ["EQUAL", "$TARGET.sides.A.numberValue", 8]
+                ],
+                "then": [
+                    ["COND",
+                        ["EQUAL", "$GAME.gameMode", "crazyEights"],
+                        [
+                            ["LOG", "└── ", "{{$ALIAS_N}} is selecting a suit."],
+                            ["PROMPT", "player1", "changeSelected"]
+                        ]
+                    ]
+                ]
+            }
+        ]
+    }
+}

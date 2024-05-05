@@ -1,0 +1,6 @@
+{
+    "imageUrlPrefix": {
+        "Default": "https://dragncards-example-plugin.s3.amazonaws.com/",
+        "English": "https://dragncards-example-plugin.s3.amazonaws.com/"
+    }
+}

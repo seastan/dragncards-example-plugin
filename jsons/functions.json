@@ -1,0 +1,47 @@
+{
+    "functions": {
+        "EXAMPLE_FUNCTION_PRINT_NUM_TOKENS_ON_CARD": {
+            "args": ["$CARD"],
+            "code": [
+                ["LOG", "{{$PLAYER_N}} is printing the number of tokens on {{$CARD.currentFace.name}}."],
+                ["FOR_EACH_KEY_VAL", "$CARD.tokens", "$TOKEN_NAME", "$NUM", [
+                    [
+                        ["PRINT_NUM_TOKEN", "$CARD.currentFace.name", "$TOKEN_ID", "$NUM"]
+                    ]
+                ]]
+            ]
+        },
+        "EXAMPLE_FUNCTION_PRINT_NUM_TOKEN": {
+            "args": ["$CARD_NAME", "$TOKEN_ID", "$NUM"],
+            "code": [
+                ["COND", 
+                    ["EQUAL", "$NUM", 1], 
+                    ["LOG", "{{$CARD_NAME}} has {{$NUM}} {{$TOKEN_ID}} token."],
+                    ["TRUE"],
+                    ["LOG", "{{$CARD_NAME}} has {{$NUM}} {{$TOKEN_ID}} tokens."]
+                ]
+            ]
+        },
+        "TOGGLE_SIDE_REGION": {
+            "args": ["$SIDE_GROUP_ID"],
+            "code": [
+                ["COND",
+                    ["AND",
+                        "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.visible",
+                        ["EQUAL", "$GAME.playerData.$PLAYER_N.layout.regions.sideRegion.groupId", "$SIDE_GROUP_ID"]
+                    ],
+                    [
+                        ["LOG", "{{$PLAYER_N}} updated their layout to hide {{$GAME.groupById.$SIDE_GROUP_ID.label}}."],
+                        ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", false]
+                    ],
+                    ["TRUE"],
+                    [
+                        ["LOG", "{{$PLAYER_N}} updated their layout to display {{$GAME.groupById.$SIDE_GROUP_ID.label}}."],
+                        ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/groupId", "$SIDE_GROUP_ID"],
+                        ["SET", "/playerData/$PLAYER_N/layout/regions/sideRegion/visible", true]
+                    ]
+                ]
+            ]
+        }
+    }
+}

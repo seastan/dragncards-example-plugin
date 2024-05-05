@@ -1,0 +1,42 @@
+{
+    "prompts": {
+        "changeSelected": {
+            "args": [],
+            "message": "Change the selected suit",
+            "options": [
+                {
+                    "label": "Hearts",
+                    "hotkey": "H",
+                    "code": [
+                        ["LOG", "{{$ALIAS_N}} selected hearts."],
+                        ["SET", "/selectedSuit", "hearts"]
+                    ]
+                },
+                {
+                    "label": "Diamonds",
+                    "hotkey": "D",
+                    "code": [
+                        ["LOG", "{{$ALIAS_N}} selected diamonds."],
+                        ["SET", "/selectedSuit", "diamonds"]
+                    ]
+                },
+                {
+                    "label": "Clubs",
+                    "hotkey": "C",
+                    "code": [
+                        ["LOG", "{{$ALIAS_N}} selected clubs."],
+                        ["SET", "/selectedSuit", "clubs"]
+                    ]
+                },
+                {
+                    "label": "Spades",
+                    "hotkey": "S",
+                    "code": [
+                        ["LOG", "{{$ALIAS_N}} selected spades."],
+                        ["SET", "/selectedSuit", "spades"]
+                    ]
+                }
+            ]
+        }
+    }
+}

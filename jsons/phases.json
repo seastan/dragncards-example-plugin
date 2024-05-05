@@ -1,0 +1,17 @@
+{
+    "phases": {
+        "examplePhase1": {
+            "label": "id:examplePhase1",
+            "height" : "20%"
+        },
+        "examplePhase2": {
+            "label": "id:examplePhase2",
+            "height" : "20%"
+        },
+        "examplePhase3": {
+            "label": "id:examplePhase3",
+            "height" : "60%"
+        }
+    },
+    "phaseOrder": ["examplePhase1", "examplePhase2", "examplePhase3"]
+}

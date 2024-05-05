@@ -1,0 +1,7 @@
+{
+    "browse": {
+        "filterPropertySideA": "suit",
+        "filterValuesSideA": ["Hearts", "Clubs", "Diamonds", "spades"],
+        "textPropertiesSideA": ["name"] 
+    }
+}

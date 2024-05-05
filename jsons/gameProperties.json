@@ -1,0 +1,31 @@
+{
+    "gameProperties": {
+        "selectedSuit": {
+            "label": "id:selectedSuit",
+            "type": "option", 
+            "default": "no-selected",
+            "options": [
+                {
+                    "id": "spades",
+                    "label": "id:spades"
+                },
+                {
+                    "id": "hearts",
+                    "label": "id:hearts"
+                },
+                {
+                    "id": "diamonds",
+                    "label": "id:diamonds"
+                },
+                {
+                    "id": "clubs",
+                    "label": "id:clubs"
+                },
+                {
+                    "id": "no-selected",
+                    "label": "id:no-selected"
+                }
+            ]
+        }
+    }
+}

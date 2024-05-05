@@ -1,0 +1,22 @@
+{
+    "deckbuilder": {
+        "addButtons": [1,2,3],
+        "colorKey": "suit",
+        "colorValues": {
+            "Hearts": "#990000",
+            "Clubs": "#000000",
+            "Diamonds": "#990000",
+            "Spades": "#000000"
+        },
+        "columns": [
+            {"propName": "name", "label": "id:name"},
+            {"propName": "suit", "label": "id:suit"},
+            {"propName": "numberValue", "label": "id:numberValue"},
+            {"propName": "rank", "label": "id:rank"}
+        ],
+        "spawnGroups": [
+            {"loadGroupId": "playerNPlay1", "label": "id:myPlayArea"},
+            {"loadGroupId": "playerNDeck", "label": "id:myDeck"}
+        ]
+    }
+}

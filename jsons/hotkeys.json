@@ -1,0 +1,18 @@
+{
+    "hotkeys": {
+        "token": [
+            {"key": "1", "tokenType": "testToken1", "label": "icon(https://dragncards-lotrlcg.s3.amazonaws.com/tokens/resource.png)"},
+            {"key": "2", "tokenType": "testToken2", "label": "icon(https://dragncards-lotrlcg.s3.amazonaws.com/tokens/damage.png)"}
+        ],
+        "game": [
+            {"key": "S", "actionList": "computeScore", "label": "id:computeScore"}
+        ],
+        "card": [
+            {"key": "A", "actionList": "toggleExhaust", "label": "id:exhaustOrReady"},
+            {"key": "C", "actionList": "detach", "label": "id:detach"},
+            {"key": "F", "actionList": "flipCard", "label": "id:flip"},
+            {"key": "H", "actionList": "shuffleIntoDeck", "label": "id:shuffleIntoOwnersDeck"},
+            {"key": "X", "actionList": "discardCard", "label": "id:discard"}
+        ]
+    }
+}

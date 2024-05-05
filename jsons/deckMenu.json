@@ -1,0 +1,13 @@
+{
+    "deckMenu": {
+        "subMenus": [
+            {   
+                "label": "Standard 52 Card Deck",
+                "deckLists": [
+                    {"label": "id:crazyEightsDeck", "deckListId": "crazyEightsDeck"},
+                    {"label": "id:warDeck", "deckListId": "warDeck"}
+                ]
+            }
+        ]
+    }
+}

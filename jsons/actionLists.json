@@ -1,0 +1,84 @@
+{
+    "actionLists": {
+        "toggleExhaust": [
+            ["COND",
+                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 90], "$ACTIVE_CARD.inPlay"],
+                [
+                    ["LOG", "{{$ALIAS_N}} readied {{$ACTIVE_FACE.name}}."],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 0],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/exhausted", false]
+                ],
+                ["AND", ["EQUAL", "$ACTIVE_CARD.rotation", 0], "$ACTIVE_CARD.inPlay"],
+                [
+                    ["LOG", "{{$ALIAS_N}} exhausted {{$ACTIVE_FACE.name}}."],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/rotation", 90],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/exhausted", true]
+                ]
+            ]
+        ],
+        "flipCard": [
+            ["COND",
+                ["EQUAL", "$ACTIVE_CARD.currentSide", "A"],
+                [
+                    ["LOG", "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} facedown."],
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "B"]    
+                ],
+                true,
+                [
+                    ["SET", "/cardById/$ACTIVE_CARD_ID/currentSide", "A"],
+                    ["LOG", "{{$ALIAS_N}} flipped {{$ACTIVE_FACE.name}} faceup."]
+                ]
+            ]
+        ],
+        "discardCard": [
+            ["COND",
+                ["EQUAL", "$ACTIVE_CARD.discardGroupId", null],
+                ["LOG", "{{$ALIAS_N}} failed to discard {{$ACTIVE_FACE.name}} because it is not associated with a discard pile. Please drag the card instead."],
+                ["TRUE"],
+                [
+                    ["LOG", "{{$ALIAS_N}} discarded {{$ACTIVE_CARD.sides.A.name}}."],
+                    ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.discardGroupId", 0]
+                ]
+            ]
+        ],
+        "shuffleIntoDeck": [
+            ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.deckGroupId", 0],
+            ["VAR", "$GROUP_ID", "$ACTIVE_CARD.deckGroupId"],
+            ["SHUFFLE_GROUP", "$GROUP_ID"],
+            ["LOG", "{{$ALIAS_N}} shuffled {{$ACTIVE_FACE.name}} into {{$GAME.groupById.$GROUP_ID.label}}."]
+        ],
+        "detach": [
+            ["COND",
+                ["GREATER_THAN", "$ACTIVE_CARD.cardIndex", 0],
+                [
+                    ["LOG", "{{$ALIAS_N}} detached {{$ACTIVE_FACE.name}}."],
+                    ["MOVE_CARD", "$ACTIVE_CARD_ID", "$ACTIVE_CARD.groupId", ["ADD", "$ACTIVE_CARD.stackIndex", 1]]
+                ]
+            ]
+        ],
+        "loadedCrazyEightsDeck": [
+            ["SET", "/gameMode", "crazyEights"],
+            ["SET_LAYOUT", "shared", "crazyEights"],
+            ["LOG", "Dealing 5 cards to each player..."],
+            ["FOR_EACH_VAL", "$PLAYER_I", "$PLAYER_ORDER", [
+                ["LOG", "{{$PLAYER_I}} was dealt 5 cards."],
+                ["MOVE_STACKS", "sharedMainDeck", "{{$PLAYER_I}}Hand", 5]
+            ]],
+            ["LOG", "Dealing 1 card to the discard pile..."],
+            ["MOVE_STACKS", "sharedMainDeck", "sharedMainDiscard", 1],
+            ["LOG", "{{$PLAYER_ORDER.[0]}} goes first."]
+        ],
+        "loadedWarDeck": [
+            ["SET", "/gameMode", "war"],
+            ["SET_LAYOUT", "shared", "war"],
+            ["LOG", "Dividing the deck among the players"],
+            ["VAR", "$CURRENT_PLAYER", "{{$PLAYER_ORDER.[0]}}"],
+            ["WHILE", ["GREATER_THAN", ["LENGTH", "$GAME.groupById.sharedMainDeck.stackIds"], 0],
+                [
+                    ["MOVE_STACKS", "sharedMainDeck", "{{$CURRENT_PLAYER}}Deck", 1],
+                    ["UPDATE_VAR", "$CURRENT_PLAYER", ["NEXT_PLAYER", "$CURRENT_PLAYER"]]
+                ]
+            ]
+        ]
+    }
+}

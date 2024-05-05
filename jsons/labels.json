@@ -1,0 +1,205 @@
+{
+    "labels": {
+        "warDeck": {
+            "English": "War Deck"
+        },
+        "crazyEightsDeck": {
+            "English": "Crazy Eights Deck"
+        },
+        "standard52CardDeck": {
+            "English": "Standard 52 Card Deck"
+        },
+        "testToken2": {
+            "English": "Test Token2"
+        },
+        "testToken1": {
+            "English": "Test Token1"
+        },
+        "round": {
+            "English": "Round"
+        },
+        "no-selected": {
+            "English": "No-selected"
+        },
+        "clubs": {
+            "English": "Clubs"
+        },
+        "diamonds": {
+            "English": "Diamonds"
+        },
+        "hearts": {
+            "English": "Hearts"
+        },
+        "spades": {
+            "English": "Spades"
+        },
+        "selectedSuit": {
+            "English": "Selected Suit"
+        },
+        "step-3.4": {
+            "English": "Step-3.4"
+        },
+        "step-3.3": {
+            "English": "Step-3.3"
+        },
+        "step-3.2": {
+            "English": "Step-3.2"
+        },
+        "step-3.1": {
+            "English": "Step-3.1"
+        },
+        "step-2.2": {
+            "English": "Step-2.2"
+        },
+        "step-2.1": {
+            "English": "Step-2.1"
+        },
+        "step-1.2": {
+            "English": "Step-1.2"
+        },
+        "step-1.1": {
+            "English": "Step-1.1"
+        },
+        "points": {
+            "English": "Points"
+        },
+        "examplePhase3": {
+            "English": "Example Phase3"
+        },
+        "examplePhase2": {
+            "English": "Example Phase2"
+        },
+        "examplePhase1": {
+            "English": "Example Phase1"
+        },
+        "discard": {
+            "English": "Discard"
+        },
+        "shuffleIntoOwnersDeck": {
+            "English": "Shuffle Into Owners Deck"
+        },
+        "flip": {
+            "English": "Flip"
+        },
+        "detach": {
+            "English": "Detach"
+        },
+        "exhaustOrReady": {
+            "English": "Exhaust Or Ready"
+        },
+        "computeScore": {
+            "English": "Compute Score"
+        },
+        "layout1Player": {
+            "English": "Layout1 Player"
+        },
+        "player4Play1": {
+            "English": "Player4 Play1"
+        },
+        "player4Discard": {
+            "English": "Player4 Discard"
+        },
+        "player4Deck": {
+            "English": "Player4 Deck"
+        },
+        "player4Hand": {
+            "English": "Player4 Hand"
+        },
+        "player3PlayArea": {
+            "English": "Player3 Play Area"
+        },
+        "player3Discard": {
+            "English": "Player3 Discard"
+        },
+        "player3Deck": {
+            "English": "Player3 Deck"
+        },
+        "player3Hand": {
+            "English": "Player3 Hand"
+        },
+        "player2PlayArea": {
+            "English": "Player2 Play Area"
+        },
+        "player2Discard": {
+            "English": "Player2 Discard"
+        },
+        "player2Deck": {
+            "English": "Player2 Deck"
+        },
+        "player2Hand": {
+            "English": "Player2 Hand"
+        },
+        "playArea": {
+            "English": "Play Area"
+        },
+        "player1PlayArea": {
+            "English": "Player1 Play Area"
+        },
+        "player1Discard": {
+            "English": "Player1 Discard"
+        },
+        "player1Deck": {
+            "English": "Player1 Deck"
+        },
+        "hand": {
+            "English": "Hand"
+        },
+        "player1Hand": {
+            "English": "Player1 Hand"
+        },
+        "sharedSetAside": {
+            "English": "Shared Set Aside"
+        },
+        "sharedDiscard": {
+            "English": "Shared Discard"
+        },
+        "deck": {
+            "English": "Deck"
+        },
+        "sharedDeck": {
+            "English": "Shared Deck"
+        },
+        "sharedFreeArea": {
+            "English": "Shared Free Area"
+        },
+        "myDeck": {
+            "English": "My Deck"
+        },
+        "myPlayArea": {
+            "English": "My Play Area"
+        },
+        "rank": {
+            "English": "Rank"
+        },
+        "numberValue": {
+            "English": "Number Value"
+        },
+        "suit": {
+            "English": "Suit"
+        },
+        "name": {
+            "English": "Name"
+        },
+        "labelMarkAsIncomplete": {
+            "English": "Mark As Incomplete"
+        },
+        "labelMarkAsComplete": {
+            "English": "Mark As Complete"
+        },
+        "toggleExhaust": {
+            "English": "Toggle Exhaust"
+        },
+        "sharedMainDiscard": {
+            "English": "Shared Main Discard"
+        },
+        "sharedMainDeck": {
+            "English": "Shared Main Deck"
+        },
+        "war": {
+            "English": "War"
+        },
+        "crazyEights": {
+            "English": "Crazy Eights"
+        }
+    }
+}

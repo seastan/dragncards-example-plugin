@@ -1,0 +1,11 @@
+{
+    "cardMenu": {
+        "moveToGroupIds": ["sharedMainDeck"],
+        "options": [
+            {
+                "label": "id:toggleExhaust",
+                "actionList": "toggleExhaust"
+            }
+        ]
+    }
+}

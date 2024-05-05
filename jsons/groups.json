@@ -1,0 +1,195 @@
+{
+    "groups": {
+        "sharedFreeArea": {
+            "groupType": "inPlay",
+            "label": "id:sharedFreeArea", 
+            "tableLabel": "",
+            "onCardEnter": {
+            }
+        },
+        "sharedMainDeck": {
+            "groupType": "deck",
+            "label": "id:sharedMainDeck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "shared",
+                "deckGroupId": "sharedMainDeck",
+                "discardGroupId": "sharedMainDiscard"
+            }
+        },
+        "sharedMainDiscard": {
+            "groupType": "discard",
+            "label": "id:sharedMainDiscard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "shared",
+                "deckGroupId": "sharedDeck",
+                "discardGroupId": "sharedMainDiscard"
+            }
+        },
+        "sharedSetAside": {
+            "groupType": "discard",
+            "label": "id:sharedSetAside", 
+            "tableLabel": "id:sharedSetAside",
+            "onCardEnter": {
+                "controller": "shared"
+            }
+        },
+        "player1Hand": {
+            "groupType": "hand",
+            "label": "id:player1Hand", 
+            "tableLabel": "id:hand",
+            "onCardEnter": {
+                "controller": "player1",
+                "deckGroupId": "player1Deck",
+                "discardGroupId": "player1Discard"
+            }
+        },
+        "player1Deck": {
+            "groupType": "deck",
+            "label": "id:player1Deck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "player1",
+                "deckGroupId": "player1Deck",
+                "discardGroupId": "player1Discard"
+            }
+        },
+        "player1Discard": {
+            "groupType": "discard",
+            "label": "id:player1Discard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "player1",
+                "deckGroupId": "player1Deck",
+                "discardGroupId": "player1Discard"
+            }
+        },
+        "player1PlayArea": {
+            "groupType": "inPlay",
+            "label": "id:player1PlayArea", 
+            "tableLabel": "id:playArea",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player1"
+            }
+        },
+        "player2Hand": {
+            "groupType": "hand",
+            "label": "id:player2Hand", 
+            "tableLabel": "id:hand",
+            "onCardEnter": {
+                "controller": "player2",
+                "deckGroupId": "player2Deck",
+                "discardGroupId": "player2Discard"
+            }
+        },
+        "player2Deck": {
+            "groupType": "deck",
+            "label": "id:player2Deck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "player2",
+                "deckGroupId": "player2Deck",
+                "discardGroupId": "player2Discard"
+            }
+        },
+        "player2Discard": {
+            "groupType": "discard",
+            "label": "id:player2Discard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "player2",
+                "deckGroupId": "player2Deck",
+                "discardGroupId": "player2Discard"
+            }
+        },
+        "player2PlayArea": {
+            "groupType": "inPlay",
+            "label": "id:player2PlayArea", 
+            "tableLabel": "id:playArea",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player2"
+            }
+        },
+        "player3Hand": {
+            "groupType": "hand",
+            "label": "id:player3Hand", 
+            "tableLabel": "id:hand",
+            "onCardEnter": {
+                "controller": "player3",
+                "deckGroupId": "player3Deck",
+                "discardGroupId": "player3Discard"
+            }
+        },
+        "player3Deck": {
+            "groupType": "deck",
+            "label": "id:player3Deck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "player3",
+                "deckGroupId": "player3Deck",
+                "discardGroupId": "player3Discard"
+            }
+        },
+        "player3Discard": {
+            "groupType": "discard",
+            "label": "id:player3Discard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "player3",
+                "deckGroupId": "player3Deck",
+                "discardGroupId": "player3Discard"
+            }
+        },
+        "player3PlayArea": {
+            "groupType": "inPlay",
+            "label": "id:player3PlayArea", 
+            "tableLabel": "id:playArea",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player3"
+            }
+        },
+        "player4Hand": {
+            "groupType": "hand",
+            "label": "id:player4Hand", 
+            "tableLabel": "id:hand",
+            "onCardEnter": {
+                "controller": "player4",
+                "deckGroupId": "player4Deck",
+                "discardGroupId": "player4Discard"
+            }
+        },
+        "player4Deck": {
+            "groupType": "deck",
+            "label": "id:player4Deck", 
+            "tableLabel": "id:deck",
+            "onCardEnter": {
+                "controller": "player4",
+                "deckGroupId": "player4Deck",
+                "discardGroupId": "player4Discard"
+            }
+        },
+        "player4Discard": {
+            "groupType": "discard",
+            "label": "id:player4Discard", 
+            "tableLabel": "id:discard",
+            "onCardEnter": {
+                "controller": "player4",
+                "deckGroupId": "player4Deck",
+                "discardGroupId": "player4Discard"
+            }
+        },
+        "player4PlayArea": {
+            "groupType": "inPlay",
+            "label": "id:player4Play1", 
+            "tableLabel": "id:playArea",
+            "canHaveAttachments": true,
+            "onCardEnter": {
+                "controller": "player4"
+            }
+        }
+    }
+}

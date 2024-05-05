@@ -1,0 +1,10 @@
+{
+    "playerProperties": {
+        "points": {
+            "label": "id:points",
+            "type": "integer", 
+            "default": 0,
+            "min": 0
+        }
+    }
+}
