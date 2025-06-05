@@ -1,6 +1,0 @@
-{
-    "layoutMenu": [
-        {"label": "id:crazyEights", "layoutId": "crazyEights", "numPlayers": 4},
-        {"label": "id:war", "layoutId": "war", "numPlayers": 4}
-    ]
-}

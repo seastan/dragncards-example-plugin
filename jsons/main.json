@@ -1,7 +1,5 @@
 {
     "pluginName": "DragnCards Example Plugin",
     "tutorialUrl": "",
-    "minPlayers": 1,
-    "maxPlayers": 4,
     "backgroundUrl": "https://i.imgur.com/kUVm4Z5.jpeg"
 }

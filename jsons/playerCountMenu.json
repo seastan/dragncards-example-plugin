@@ -1,0 +1,24 @@
+{
+    "playerCountMenu": [
+        {
+            "label": "1",
+            "numPlayers": 1,
+            "layoutId": "crazyEights"
+        },
+        {
+            "label": "2",
+            "numPlayers": 2,
+            "layoutId": "crazyEights"
+        },
+        {
+            "label": "3",
+            "numPlayers": 3,
+            "layoutId": "crazyEights"
+        },
+        {
+            "label": "4",
+            "numPlayers": 4,
+            "layoutId": "crazyEights"
+        }
+    ]
+}

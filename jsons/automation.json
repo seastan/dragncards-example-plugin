@@ -1,7 +1,7 @@
 {
     "automation": {
-        "gameRules": [
-            { 
+        "gameRules": {
+            "changeSuit": { 
                 "_comment": "Show option to change selected suit when an 8 is played",
                 "type": "trigger", 
                 "listenTo": ["/cardById/*/groupId"],
@@ -20,6 +20,6 @@
                     ]
                 ]
             }
-        ]
+        }
     }
 }
